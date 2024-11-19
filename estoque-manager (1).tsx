@@ -21,21 +21,6 @@ const EstoqueManager = () => {
   const [historico, setHistorico] = useState([
     // Nova saída
     {
-      data: '20/11/2024',
-      tipo: 'saída',
-      material: 'TE ESGOTO 150X100MM',
-      quantidade: 2
-    },
-    // Entradas da primeira nota (04/11/2024)
-    {
-      data: '04/11/2024',
-      tipo: 'entrada',
-      material: 'PREGO 17X27',
-      quantidade: 10,
-      valorUnitario: 15.80,
-      notaFiscal: '000.123.501'
-    }, 
-    {
       data: '04/11/2024',
       tipo: 'entrada',
       material: 'PREGO 18X36',
