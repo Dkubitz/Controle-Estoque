@@ -20,20 +20,6 @@ const EstoqueManager = () => {
   
   const [historico, setHistorico] = useState([
     {
-      data: '20/11/2024',
-      tipo: 'entrada',
-      material: 'TE ESGOTO 150X100MM',
-      quantidade: 2,
-      observacao: 'Retorno de material não utilizado'
-    },
-    {
-      data: '20/11/2024',
-      tipo: 'entrada',
-      material: 'TE ESGOTO 150X100MM',
-      quantidade: 2,
-      observacao: 'Retorno de material não utilizado'
-    },
-    {
       data: '04/11/2024',
       tipo: 'entrada',
       material: 'PREGO 17X27',
